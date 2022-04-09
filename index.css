@@ -1,0 +1,959 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-family: 'Lato';
+    color:#fff;
+    background-color: #F9F5F0;
+}
+main{
+    width: 100%;
+    height: auto;
+}
+#cabecalho{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index:3;
+    width: 100%;
+    height: 75px;
+    background-color: #F7E1D8;
+    display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#menu_direito{
+    position:relative;
+	width:35%;
+	height:auto;
+	float: left;
+    margin-left:380px ;
+}
+#menu_direito a{
+    font-size:30px;
+	color:#FFF;
+	text-decoration:none;
+	font-family:'Yanone Kaffeesatz';
+    margin-top: 25px;
+    margin-left: 90px;
+    float: left;
+	}
+#menu_direito a:hover{
+        color:#96957C;
+        transition: 1s all;
+    }
+#menu_direito2{
+        position:relative;
+        width:10%;
+        height:40px;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+        background-color: #D99A56;
+        margin-top: 18px;
+    }
+#menu_direito2 a{
+        font-size:30px;
+        color:#FFF;
+        text-decoration:none;
+        font-family:'Yanone Kaffeesatz';
+        margin-top: 8px;
+
+        }
+#menu_direito2 a:hover{
+        color:#96957C;
+        transition: 1s all;
+        }
+#logo{
+    position: relative;
+    width: 15%;
+    height: auto;
+    
+}
+#logo img{
+    width: 100%;
+    height: 86px;
+    margin-left: 10px;
+}
+#bannerPrincipal{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#bannerPrincipal img{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 596px;
+}
+#tituloBanner{
+    position: absolute;
+    top: 360px;
+    left:40px;
+    width: 65%;
+    background-color: #F7E1D8;
+    opacity: 60%;
+}
+#tituloBanner label{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 60px;
+    color:#e19443;
+    font-weight: bold;
+}
+#textoBanner{
+    width: 95%;
+    position: absolute;
+    top: 430px;
+    left: 40px;
+    text-align: justify;
+}
+#textoBanner label{
+    font-family: 'Lato';
+    font-size: 30px;
+    color:#fff;
+}
+#localizacao{
+    position: relative;
+    width: 100%;
+    height: 574px;
+    background-color: #F7E1D8;
+    margin-top: -5px;
+}
+#textoLocalizacao{
+    position: relative;
+    width: 40%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 60px;
+    
+}
+#textoLocalizacao h1{
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+#textoLocalizacao p{
+    font-family: 'Lato';
+    font-size: 30px;
+    color: #fff;
+    text-align: justify;
+}
+#textoLocalizacao button{
+    position: relative;
+    padding: 15px;
+    background-color: #D99A56;
+    font-family: 'Lato';
+    color: #fff;
+    font-size: 18px;
+    margin-left: 250px;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+#textoLocalizacao button:hover{
+    background-color: #96957C;
+    transition: 1s all;
+    transform: scale(1.05);
+    
+    
+}
+#mapa{
+    position: relative;
+    width: 50%;
+    float: left;
+}
+#mapa iframe{
+    position: relative;
+    margin-left: 200px;
+    margin-top:80px ;
+}
+#linha{
+    position: relative;
+    width: 100%;
+}
+#linha img{
+    width: 100%;
+}
+#servicos h1{
+    font-family: 'Yanone Kaffeesatz';
+    color: #373636;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 100px;
+}
+.s{
+    position: relative;
+    float: left;
+    width: 14%;
+    height: 252px;
+    border-radius: 14px;
+    background-color: #D99A56;
+    margin-left: 78px;
+    margin-top: 75px; 
+
+}
+.s:hover{
+    background-color: #F7E1D8;
+    transform: scale(1.05);
+    transition: 1s all;
+}
+#servicos div img{
+    width: 100%;
+    height: 205px;
+    margin-top: 20px;
+}
+#h,h2,h3,h4,h5 h4{
+    font-family: 'Lato';
+    color: #373636;
+    font-size: 25px;
+    
+}
+#h{
+  margin-left: 130px;
+  margin-top: 80px;
+  float: left;
+}
+#h2{
+    margin-left: 200px;
+    margin-top: 80px;
+    float: left;
+  }
+  #h3{
+    margin-left: 210px;
+    margin-top: 80px;
+    float: left;
+  }
+  #h4{
+    margin-left: 190px;
+    margin-top: 80px;
+    float: left;
+  }
+  #h5{
+    margin-left: 170px;
+    margin-top: 80px;
+    float: left;
+  }
+  
+#textoServicos{
+    position: relative;
+    width: 100%;
+}
+#servicos{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+#depilacao{
+    width: 100%;
+    height: auto;
+    background-color: #F7E1D8;
+    margin-top: 700px;
+}
+#depilacao h1{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 20px;
+}
+#depilacao p{
+    font-size: 30px;
+    font-family: 'Lato';
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+#imagemDep{
+    width: 10%;
+    display: flex;
+    margin-left: 1330px;
+    margin-top: -90px;
+}
+#shiatsu{
+    width: 100%;
+    height: auto;
+}
+#shiatsu h1{
+    color: #373636;
+    font-size: 60px;
+    margin-top: 20px;
+}
+#shiatsu p{
+    font-size: 30px;
+    font-family: 'Lato';
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    color:#373636;
+}
+#imagemShiatsu{
+    width: 10%;
+    display: flex;
+    margin-left: 1330px;
+    margin-top: -90px;
+}
+#massagem{
+    width: 100%;
+    height: auto;
+    background-color: #F7E1D8;
+}
+#massagem h1{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 20px;
+}
+#massagem p{
+    font-size: 30px;
+    font-family: 'Lato';
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+#imagemMass{
+    width: 10%;
+    display: flex;
+    margin-left: 1330px;
+    margin-top: -50px;
+}
+#drenagem{
+    width: 100%;
+    height: auto;
+}
+#drenagem h1{
+    color: #373636;
+    font-size: 60px;
+    margin-top: 20px;
+}
+#drenagem p{
+    font-size: 30px;
+    font-family: 'Lato';
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    color:#373636;
+}
+#imagemDrenagem{
+    width: 10%;
+    display: flex;
+    margin-left: 1330px;
+    margin-top: -50px;
+}
+#sombrancelha{
+    width: 100%;
+    height: auto;
+    background-color: #F7E1D8;
+}
+#sombrancelha h1{
+    color: #fff;
+    font-size: 60px;
+    margin-top: 20px;
+}
+#sombrancelha p{
+    font-size: 30px;
+    font-family: 'Lato';
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+#imagemSombrancelha{
+    width: 10%;
+    display: flex;
+    margin-left: 1330px;
+    margin-top: -90px;
+}
+#formulario h1{
+    font-size: 60px;
+}
+form {
+    /* Centralizar o formulário na pagina */
+    margin: 0 auto;
+    width: 600px;
+    /* Ver o esboço do formulário */
+    padding: 5em;
+    border: 1px solid #96957C;
+    border-radius: 1em;
+  }
+  
+  form .espaco {
+    margin-top: 1em;
+  }
+  
+  .textoForm{
+    /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    font-family: 'Lato';
+    color: #373636;
+  }
+  
+  input, textarea {
+    /* 
+  Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+       Por padrão, as áreas de texto possuem a mesma fonte */
+    font: 1em 'Lato' #373636;
+    /* Para dar o mesmo tamanho a todos os campos de texto*/
+    width: 500px;
+    box-sizing: border-box;
+  
+    /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+    border: 1px solid #999;
+  }
+  
+  input:focus, textarea:focus {
+    /* Para dar um pouco de destaque aos elementos ativos*/
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+    vertical-align: top;
+  
+    /* Para dar espaço suficiente para digitar algum texto */
+    height: 10em;
+  }
+  
+  .button {
+    /* Para posicionar os botões na mesma posição dos campos de texto */
+    padding-left: 90px; /* mesmo tamanho que os elementos do rótulo */
+    
+  }
+  
+  button {
+    /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+       entre os rótulos e seus campos de texto*/
+    margin-left: .4em;
+    background-color: #D99A56;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 2px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Lato';
+  }
+  button:hover{
+      background-color: #96957C;
+      color: #fff;
+  }
+footer{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 120px;
+    background-color: #F7E1D8;
+}
+
+footer img{
+    position: relative;
+    width: 20%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+#menu_direitoF{
+    position:relative;
+	width:35%;
+	height:auto;
+	float: left;
+    margin-left:650px ;
+}
+#menu_direitoF a{
+    font-size:30px;
+	color:#373636;
+	text-decoration:none;
+	font-family:'Yanone Kaffeesatz';
+    margin-top: 80px;
+    margin-left: 30px;
+    float: left;
+	}
+#menu_direitoF a:hover{
+        color:#fff;
+        transition: 1s all;
+    }
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px){
+    body{
+        font-family: 'Lato';
+        color:#fff;
+        background-color: #F9F5F0;
+    }
+    main{
+        width: 100%;
+        height: auto;
+    }
+    #cabecalho{
+        position: fixed;
+        top:0;
+        left:0;
+        z-index:3;
+        width: 79.6%;
+        height: 75px;
+        background-color: #F7E1D8;
+        
+    }
+    #menu_direito{
+        position:relative;
+        width:60%;
+        height:auto;
+        float: left;
+        margin-left:50px ;
+    }
+    #menu_direito a{
+        font-size:15px;
+        color:#FFF;
+        text-decoration:none;
+        font-family:'Yanone Kaffeesatz';
+        margin-top: 30px;
+        margin-left: 10px;
+        float: left;
+     
+
+        }
+    #menu_direito a:hover{
+            color:#96957C;
+            transition: 1s all;
+        }
+    #menu_direito2{
+            position:relative;
+            width:10%;
+            height:20px;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-around;
+            background-color: #D99A56;
+            margin-top: 26px;
+            left: -6px;
+        }
+    #menu_direito2 a{
+            font-size:10px;
+            color:#FFF;
+            text-decoration:none;
+            font-family:'Yanone Kaffeesatz';
+            margin-top: 7px;
+    
+            }
+    #menu_direito2 a:hover{
+            color:#96957C;
+            transition: 1s all;
+            }
+    #logo{
+        position: relative;
+        width: 70%;
+        height: auto;
+    
+        
+    }
+    #logo img{
+        width: 50%;
+        margin-left: 10px;
+    }
+    #bannerPrincipal{
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    #bannerPrincipal img{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: 330px;
+    }
+    #tituloBanner{
+        position: absolute;
+        top: 200px;
+        left:10px;
+        width: 80%;
+        background-color: #F7E1D8;
+        opacity: 60%;
+    }
+    #tituloBanner label{
+        font-family: 'Yanone Kaffeesatz';
+        font-size: 22px;
+        color:#e19443;
+        font-weight: bold;
+    }
+    #textoBanner{
+        width: 95%;
+        position: absolute;
+        top: 230px;
+        left: 13px;
+        text-align: justify;
+    }
+    #textoBanner label{
+        font-family: 'Lato';
+        font-size: 12px;
+        color:#fff;
+    }
+    #localizacao{
+        position: relative;
+        width: 100%;
+        height: 400px;
+        background-color: #F7E1D8;
+        margin-top: -5px;
+    }
+    #textoLocalizacao{
+        position: relative;
+        width: 40%;
+        float: left;
+        margin-top: 110px;
+        margin-left: 20px;
+        
+    }
+    iframe{
+        width: 80%;
+        height: 300px;
+        left: -150px;
+        top: -40px;
+    }
+    #textoLocalizacao h1{
+        font-family: 'Yanone Kaffeesatz';
+        font-size: 22px;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+    }
+    #textoLocalizacao p{
+        font-family: 'Lato';
+        font-size: 12px;
+        color: #fff;
+        text-align: justify;
+    }
+    #textoLocalizacao button{
+        position: relative;
+        background-color: #D99A56;
+        font-family: 'Lato';
+        color: #fff;
+        font-size: 12px;
+        margin-left: 50px;
+        margin-top: 10px;
+        border-radius: 4px;
+        width: 50%;
+        height: 15px;
+    }
+    #textoLocalizacao button:hover{
+        background-color: #96957C;
+        transition: 1s all;
+        transform: scale(1.05);
+        
+        
+    }
+    #servicos h1{
+        font-family: 'Yanone Kaffeesatz';
+        color: #373636;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    .s{
+        position: relative;
+        float: left;
+        width: 15%;
+        height: 152px;
+        border-radius: 14px;
+        background-color: #D99A56;
+        margin-left: 20px;
+        margin-top: 50px; 
+    
+    }
+    .s:hover{
+        background-color: #F7E1D8;
+        transform: scale(1.05);
+        transition: 1s all;
+    }
+    #servicos div img{
+        width: 100%;
+        height: 100px;
+        margin-top: 20px;
+    }
+    #h,h2,h3,h4,h5 h4{
+        font-family: 'Lato';
+        color: #373636;
+        font-size: 13px;
+        
+    }
+    #h{
+      margin-left: 28px;
+      margin-top: 80px;
+      float: left;
+    }
+    #h2{
+        margin-left: 30px ;
+        margin-top: 80px;
+        float: left;
+      }
+      #h3{
+        margin-left: 35px;
+        margin-top: 80px;
+        float: left;
+      }
+      #h4{
+        margin-left: 28px;
+        margin-top: 80px;
+        float: left;
+      }
+      #h5{
+        margin-left: 26px;
+        margin-top: 80px;
+        float: left;
+      }
+      
+    #textoServicos{
+        position: relative;
+        width: 100%;
+    }
+    #servicos{
+        position: relative;
+        width: 100%;
+        height: 600px;
+    }
+    #depilacao{
+        width: 100%;
+        height: auto;
+        background-color: #F7E1D8;
+        margin-top: 500px;
+    }
+    #depilacao h1{
+        color: #fff;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #depilacao p{
+        font-size: 18px;
+        font-family: 'Lato';
+        text-align: justify;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #imagemDep{
+        display: none;
+    }
+    #shiatsu{
+        width: 100%;
+        height: auto;
+    }
+    #shiatsu h1{
+        color: #373636;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #shiatsu p{
+        font-size: 18px;
+        font-family: 'Lato';
+        text-align: justify;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        color:#373636;
+    }
+    #imagemShiatsu{
+        display: none;
+    }
+    #massagem{
+        width: 100%;
+        height: auto;
+        background-color: #F7E1D8;
+    }
+    #massagem h1{
+        color: #fff;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #massagem p{
+        font-size: 18px;
+        font-family: 'Lato';
+        text-align: justify;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #imagemMass{
+        display: none;
+    }
+    #drenagem{
+        width: 100%;
+        height: auto;
+    }
+    #drenagem h1{
+        color: #373636;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #drenagem p{
+        font-size: 15px;
+        font-family: 'Lato';
+        text-align: justify;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+        color:#373636;
+    }
+    #imagemDrenagem{
+        display: none;
+    }
+    #sombrancelha{
+        width: 100%;
+        height: auto;
+        background-color: #F7E1D8;
+    }
+    #sombrancelha h1{
+        color: #fff;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    #sombrancelha p{
+        font-size: 15px;
+        font-family: 'Lato';
+        text-align: justify;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #imagemSombrancelha{
+        display: none;
+    }
+    #formulario h1{
+        font-size: 30px;
+    }
+    form {
+        /* Centralizar o formulário na pagina */
+        margin: 0 auto;
+        width: 280px;
+        /* Ver o esboço do formulário */
+        padding: 5em;
+        border: 1px solid #96957C;
+        border-radius: 1em;
+      }
+      
+      form .espaco {
+        margin-top: 1em;
+      }
+      
+      .textoForm{
+        /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
+        display: inline-block;
+        width: 90px;
+        text-align: left;
+        font-family: 'Lato';
+        color: #373636;
+      }
+      
+      input, textarea {
+        /* 
+      Para garantir que todos os campos de texto tenham as mesmas configurações de fonte
+           Por padrão, as áreas de texto possuem a mesma fonte */
+        font: 1em 'Lato' #373636;
+        /* Para dar o mesmo tamanho a todos os campos de texto*/
+        width: 300px;
+        box-sizing: border-box;
+        
+      
+        /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
+        border: 1px solid #999;
+      }
+      
+      input:focus, textarea:focus {
+        /* Para dar um pouco de destaque aos elementos ativos*/
+        border-color: #000;
+      }
+      
+      textarea {
+        /* Para alinhar corretamente campos de texto multilinha com seus rótulos */
+        vertical-align: top;
+      
+        /* Para dar espaço suficiente para digitar algum texto */
+        height: 10em;
+      }
+      
+      .button {
+        /* Para posicionar os botões na mesma posição dos campos de texto */
+        padding-left: 1px; /* mesmo tamanho que os elementos do rótulo */
+    
+      }
+      
+      button {
+        /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço
+           entre os rótulos e seus campos de texto*/
+        margin-left: .4em;
+        background-color: #D99A56;
+        padding: 10px;
+        padding-left: 15px;
+        border-radius: 2px;
+        margin-top: 10px;
+        text-align: left;
+        font-family: 'Lato';
+      }
+      button:hover{
+          background-color: #96957C;
+          color: #fff;
+      }
+    footer{
+        position: relative;
+        margin-top: 50px;
+        width: 100%;
+        height: 50px;
+        background-color: #F7E1D8;
+    }
+    
+    footer img{
+        position: relative;
+        width: 28%;
+        height: auto;
+        float: left;
+        margin-left: 20px;
+    }
+    #menu_direitoF{
+        position:relative;
+        width:35%;
+        height:auto;
+        float: left;
+        margin-left:300px ;
+        top:-40px;
+    }
+    #menu_direitoF a{
+        font-size:10px;
+        color:#373636;
+        text-decoration:none;
+        font-family:'Yanone Kaffeesatz';
+        margin-top: 24px;
+        margin-left: 5px;
+        float: left;
+        }
+    #menu_direitoF a:hover{
+            color:#fff;
+            transition: 1s all;
+        }
+    
+    
+    }
+
+@media only screen and (min-width:481px){
+        @media only screen and (max-width:768px)
+        {
+    
+}
+}
+@media only screen and (min-width: 2200px){
+
+}
