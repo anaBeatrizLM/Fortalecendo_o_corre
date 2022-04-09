@@ -507,7 +507,7 @@ html{
         top:0;
         left:0;
         z-index:3;
-        width: 79.6%;
+        width: 76%;
         height: 75px;
         background-color: #F7E1D8;
         
@@ -583,7 +583,7 @@ html{
         position: absolute;
         top: 200px;
         left:10px;
-        width: 80%;
+        width: 85%;
         background-color: #F7E1D8;
         opacity: 60%;
     }
@@ -648,7 +648,7 @@ html{
         margin-left: 50px;
         margin-top: 10px;
         border-radius: 4px;
-        width: 50%;
+        width: 55%;
         height: 15px;
     }
     #textoLocalizacao button:hover{
