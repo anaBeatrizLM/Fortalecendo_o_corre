@@ -507,7 +507,7 @@ html{
         top:0;
         left:0;
         z-index:3;
-        width: 79.6%;
+        width: 100%;
         height: 75px;
         background-color: #F7E1D8;
         
@@ -517,7 +517,7 @@ html{
         width:60%;
         height:auto;
         float: left;
-        margin-left:50px ;
+        margin-left: -20px;
     }
     #menu_direito a{
         font-size:15px;
@@ -543,7 +543,7 @@ html{
             justify-content:space-around;
             background-color: #D99A56;
             margin-top: 26px;
-            left: -6px;
+            left: -20px;
         }
     #menu_direito2 a{
             font-size:10px;
@@ -608,14 +608,15 @@ html{
     #localizacao{
         position: relative;
         width: 100%;
-        height: 400px;
+        height: 600px;
         background-color: #F7E1D8;
         margin-top: -5px;
+        text-align: center;
     }
     #textoLocalizacao{
         position: relative;
-        width: 40%;
-        float: left;
+        width: 95%;
+        float: none;
         margin-top: 110px;
         margin-left: 20px;
         
@@ -623,8 +624,8 @@ html{
     iframe{
         width: 80%;
         height: 300px;
-        left: -150px;
         top: -40px;
+        left: -30%;
     }
     #textoLocalizacao h1{
         font-family: 'Yanone Kaffeesatz';
@@ -632,6 +633,7 @@ html{
         color: #fff;
         font-weight: bold;
         text-align: center;
+        padding: 20px;
     }
     #textoLocalizacao p{
         font-family: 'Lato';
@@ -645,8 +647,7 @@ html{
         font-family: 'Lato';
         color: #fff;
         font-size: 12px;
-        margin-left: 50px;
-        margin-top: 10px;
+        margin: 20px auto 0 auto;
         border-radius: 4px;
         width: 50%;
         height: 15px;
@@ -693,27 +694,27 @@ html{
         
     }
     #h{
-      margin-left: 28px;
+      margin-left: 20px;
       margin-top: 80px;
       float: left;
     }
     #h2{
-        margin-left: 30px ;
+        margin-left: 28px ;
         margin-top: 80px;
         float: left;
       }
       #h3{
-        margin-left: 35px;
+        margin-left: 30px;
         margin-top: 80px;
         float: left;
       }
       #h4{
-        margin-left: 28px;
+        margin-left: 20px;
         margin-top: 80px;
         float: left;
       }
       #h5{
-        margin-left: 26px;
+        margin-left: 10px;
         margin-top: 80px;
         float: left;
       }
@@ -839,7 +840,7 @@ html{
     form {
         /* Centralizar o formulário na pagina */
         margin: 0 auto;
-        width: 280px;
+        width: 50%;
         /* Ver o esboço do formulário */
         padding: 5em;
         border: 1px solid #96957C;
@@ -865,7 +866,7 @@ html{
            Por padrão, as áreas de texto possuem a mesma fonte */
         font: 1em 'Lato' #373636;
         /* Para dar o mesmo tamanho a todos os campos de texto*/
-        width: 300px;
+        width: 90%;
         box-sizing: border-box;
         
       
@@ -928,7 +929,7 @@ html{
         width:35%;
         height:auto;
         float: left;
-        margin-left:300px ;
+        margin-left:200px ;
         top:-40px;
     }
     #menu_direitoF a{
